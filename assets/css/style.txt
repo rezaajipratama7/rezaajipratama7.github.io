@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #04293A;
+    color: #EDEDED;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.navbar{
+    background-color: transparent;
+    font-family: "Archivo", sans-serif;
+    font-size: 14px;
+}
+
+.navbar li{
+    margin-left : 5px;
+    margin-right : 5px;
+}
+
+.navbar span:hover{
+    /* opacity: 85%; */
+    color: #D89216;
+}
+
+.section-title h2 {
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1px;
+    letter-spacing: 2px;
+    color: #EDEDED;
+    font-family: "Archivo", sans-serif;
+    text-transform: uppercase;
+  }
+
+  .section-title h2::after {
+    content: "";
+    margin: 4px 10px;
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #D89216;
+  }
+
+  .section-title p {
+    margin: 0;
+    margin: -15px 0 15px 0;
+    font-size: 36px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #EDEDED;
+    animation: slideUp .8s ease-in-out forwards .8s;
+  }
+
+footer{
+    padding-right: 10px;
+    bottom: 0px; 
+    left: 0px; 
+    width: 100%;
+    height: 28px;
+    position: fixed;
+    text-align: right;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    color: #2C3333;
+}
+/* =============== HOME =============== */
+
+.home{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    padding-top: 10%;
+}
+
+    #home h1{
+        padding-top: 30px;
+        font-family: "Bebas Neue", sans-serif;
+    }
+
+    #home h5{
+        font-family: "Archivo", sans-serif;
+        /* text-transform: uppercase; */
+        color: #D89216;
+    }
+
+.avatar{
+    margin: auto;
+    padding-bottom: 20px;
+    border-radius: 50%;
+    width: 18%;
+}
+
+.social{
+    margin-top: 40px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .social a{
+    margin-left : 5px;
+    margin-right : 5px;
+  }
+  
+  .social i{
+    opacity: 0.5;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .social i:hover{
+    opacity: 1;
+  }
+
+
+/* =============== END HOME =============== */
+/* ------------------------------------------- */
+/* =============== ABOUT =============== */
+.about{
+    margin: auto;
+    padding-top: 7%;
+    height: 100vh;
+    width: 100vw;
+}
+    .rounded{
+        margin-left: 20%;
+        border-radius: 8px;
+        width: 80%;
+    }
+
+    p{
+        margin-right: 20%;
+        text-align: justify;
+    }
+
+.skills ul{
+    padding-top: 10px;
+}
+
+.skills li{
+    padding-left: 10%;
+}
+
+.skills strong{
+    padding-left: 10%;
+}
+
+/* =============== END ABOUT =============== */
+/* ------------------------------------------- */
+/* =============== RESUME =============== */
+
+.resume{
+    height: 100vh;
+    width: 100vw;
+}
+
+/* =============== END RESUME =============== */
+/* ------------------------------------------- */
+/* =============== PORTOFOLIO =============== */
+
+.portofolio{
+    height: 100vh;
+    width: 100vw;
+}
+
+/* =============== END PORTOFOLIO =============== */
+/* ------------------------------------------- */
+/* =============== CONTACT =============== */
+
+.contact{
+    height: 100vh;
+    width: 100vw;
+}
+
+/* =============== END CONTACT =============== */
