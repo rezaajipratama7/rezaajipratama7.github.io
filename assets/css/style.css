@@ -123,6 +123,21 @@ p{
     padding-top: 10px;
 }
 
+/* =============== WORK SECTION =============== */
+.work{
+    /* margin: auto;
+    padding-top: 7%;
+    height: 100vh;
+    width: 100vw; */
+    padding-top: 10%;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: #04293A; */
+    color: #EDEDED;
+    /* text-align: center; */
+}
+
+
 /* 320px — 480px: Mobile devices */
 @media only screen and (max-width: 480px){
     /* ===== HOME ===== */
